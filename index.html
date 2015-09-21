@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Twitch Status</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <h1 class='header'> Twitch Status Finder!</h1>
+<h5 class='descH'/>(This is a live Twitch Search - I have built beyond just searching within the array, it's still WIP because it isn't posting when an account doesn't exist. Everything else is fully functional)
+
+<div class='searcher'>
+  <input class='search' placeholder="Search all of Twitch!" id='trialnerror'><button id="submit" onClick='search()'>Submit!</button></div>
+<div class="container">
+    <div class="row">
+    <div class="col-md-4" id="playerDef"><h2/>Online Streamers:</div>
+    <div class="col-md-4" id="offlineDef"><h2/>Offline Streamers:</div>
+    <div class="col-md-4" id="resultsDef"><h2/>Search Field(WIP)</div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 twitch1" id="player"></div>
+    <div class="col-md-4 twitch2" id="offline"></div>
+    <div class="col-md-4 twitch3" id="results"></div>
+  </div>
+</div><br>
+<div class="describer">This is a simple use of API. I did not add much excess functionality to this project, as my key point was to hit the User Stories, and add a slight functionality. I will likely re-visit it later to add more UX, and additional functionality.
+<footer class="cr">2015&copy Donavin Northrup</footer>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

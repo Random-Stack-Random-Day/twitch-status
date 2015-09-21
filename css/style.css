@@ -1,0 +1,42 @@
+
+.header{
+  text-align: center;
+}
+.descH{
+  text-align: center;
+  margin: 2px;
+}
+.detailer{
+  width: auto;
+  height: 15px;
+  
+}
+.searcher{
+  text-align: center;
+  padding-top: 5px;
+}
+::-webkit-input-placeholder::before { 
+  font-family: fontAwesome; 
+  content:'\f002  '; 
+  color: #69f 
+}
+.container{
+  margin-top: 50px;
+  text-align: center;
+}
+#twitchBio{
+  width: auto;
+  height: 100px;
+}
+.caption{
+  margin: 2px;
+}
+.game{
+  color: blue;
+}
+.status{
+  color: red;
+}
+.describer{
+  
+}
